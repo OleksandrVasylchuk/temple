@@ -405,7 +405,7 @@ svg {
     margin-right: 0;
   }
   .header_item-link {
-    font-size: 16px;
+    font-size: 15px;
     font-family: "PT Sans";
     color: #262626;
     text-transform: uppercase;
@@ -421,7 +421,7 @@ svg {
   .hero {
     height: 450px;
     width: 320px;
-    background-image: url(../../images/hero-mobile.jpg);
+    background-image: url(../images/hero-mobile.jpg);
     background-repeat: no-repeat;
     object-fit: cover;
     margin-left: auto;
@@ -469,7 +469,7 @@ svg {
   .hero {
     position: relative;
     left: -270px;
-    background-image: url(../../images/hero.jpg);
+    background-image: url(../images/hero.jpg);
     background-repeat: no-repeat;
     height: 580px;
     width: 1920px;
@@ -1117,7 +1117,7 @@ svg {
     opacity: 0.902;
     height: 200px;
     width: 320px;
-    background-image: url("../../images/footer-bascground.jpg");
+    background-image: url(../images/footer-bascground.jpg);
     background-repeat: no-repeat;
     background-size: 200%;
     object-fit: cover;
@@ -1166,7 +1166,7 @@ svg {
   .build {
     height: 540px;
     opacity: 0.902;
-    background-image: url("../../images/footer-bascground.jpg");
+    background-image: url(../images/footer-bascground.jpg);
     background-repeat: no-repeat;
     object-fit: cover;
     margin-left: auto;
