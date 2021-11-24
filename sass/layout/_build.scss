@@ -1,0 +1,115 @@
+ @media screen and (max-width: 1149px) {
+.build {
+    position: relative;
+    opacity: 0.902;
+    height: 200px;
+    width: 320px;
+    background-image: url("../../images/footer-bascground.jpg");
+    background-repeat: no-repeat;
+    background-size: 200%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.build__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.build__text {
+    padding-top: 13px;
+    width: 212px;
+    height: 56px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: "PT Sans";
+    color: rgb(38, 38, 38);
+    line-height: 1.333;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.build__button {
+    width: 146px;
+    height: 56px;
+    font-size: 14px;
+    font-family: "PT Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.714;
+    text-align: center;
+    border: none;
+    background-color: rgb(72, 151, 76);
+
+
+}
+
+ }
+
+@media screen and (min-width: 1150px) {
+    
+    .build {
+    height: 540px;
+    opacity: 0.902;
+    background-image: url("../../images/footer-bascground.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+    .build__container {
+        // box-sizing: content-box;
+        padding-top: 430px;
+        // padding-left: 40px;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .build .container{
+        display: flex;
+    }
+
+    .build__text {
+        padding-top: 13px;
+        width: 212px;
+        height: 56px;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-family: "PT Sans";
+        color: rgb(38, 38, 38);
+        line-height: 1.333;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle
+
+    }
+
+    .build__button {
+        width: 146px;
+        height: 56px;
+        font-size: 14px;
+        font-family: "PT Sans";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.714;
+        text-align: center;
+        border: none;
+        background-color: rgb(72, 151, 76);
+
+
+    }
+}

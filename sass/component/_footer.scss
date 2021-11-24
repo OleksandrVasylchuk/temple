@@ -1,0 +1,227 @@
+ @media screen and (max-width: 1149px) {
+.footer {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: rgb(64, 64, 64);
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.footer__container {
+    padding-top: 55px;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer__icon{
+    justify-content: center;
+}
+
+
+.footer__title {
+    font-size: 35px;
+    font-family: "Cormorant Infant";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+
+}
+
+.footer__text {
+    margin-top: 15px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-family: "Cormorant Infant";
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    line-height: 1.5;
+
+
+}
+
+
+.list-item__link {
+    font-size: 15px;
+    font-family: "PT Sans";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 2.125;
+
+    &:hover,
+    &:focus {
+        color: #449653;
+        transition: all 250ms ease-in-out;
+    }
+}
+
+.footer__img {
+    width: 88px;
+    height: 31px;
+    margin: 30px auto 30px auto;
+
+}
+
+.footer__icon-list {
+    display: flex;
+    margin-top: 20px;
+     justify-content: center;
+}
+
+.footer__icon-item {
+    display: block;
+    margin-left: 15px;
+
+    &:first-child {
+        margin-left: 0px;
+    }
+}
+
+.footer__icon-icon {
+    padding-top: 10px;
+    fill: #cccccc;
+    width: 30px;
+    height: 30px;
+
+    &:hover,
+    &:focus {
+        fill: rgb(72, 151, 76);
+    }
+}
+
+.avtor {
+    // margin-top: 45px;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: solid 1px rgb(153, 153, 153);
+
+}
+
+.avtor__text {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    font-family: "PT Sans";
+    color: rgb(153, 153, 153);
+    line-height: 1.429;
+
+
+}
+ }
+ 
+@media screen and (min-width: 1150px) {
+    .footer {
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+        // width: 1920px;
+        height: 350px;
+        background-color: rgb(64, 64, 64);
+        box-sizing: border-box;
+        justify-content: center;
+    }
+
+    .footer__container {
+        display: flex;
+        padding-top: 55px;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .footer__container-text {
+        margin-right: 40px;
+        width: 432px;
+    }
+
+    .footer__title {
+        font-size: 35px;
+        font-family: "Cormorant Infant";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.222;
+        text-align: left;
+    }
+
+    .footer__text {
+        margin-top: 15px;
+        margin-bottom: 16px;
+        font-size: 16px;
+        font-family: "Cormorant Infant";
+        color: rgb(255, 255, 255);
+        font-style: italic;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    .footer__list-link {
+        margin-right: 220px;
+        height: 200px;
+    }
+
+    .list-item__link {
+        display: inline-flex;
+        width: 205px;
+
+        font-size: 15px;
+        font-family: "PT Sans";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 2.125;
+
+        &:hover,
+        &:focus {
+            color: #449653;
+            transition: all 250ms ease-in-out;
+        }
+    }
+
+    .footer__img {
+        width: 88px;
+        height: 31px;
+        margin-top: 45px;
+        margin-left: 105px;
+
+    }
+
+    .footer__icon-list {
+        display: flex;
+    }
+
+    .footer__icon-item {
+        display: block;
+        margin-left: 15px;
+
+        &:first-child {
+            margin-left: 0px;
+        }
+    }
+
+    .footer__icon-icon {
+        padding-top: 10px;
+        fill: #cccccc;
+        width: 30px;
+        height: 30px;
+
+        &:hover,
+        &:focus {
+            fill: rgb(72, 151, 76);
+        }
+    }
+
+    .avtor {
+        margin-top: 45px;
+        margin-right: auto;
+        margin-left: auto;
+        height: 45px;
+        border-top: solid 1px rgb(153, 153, 153);
+    }
+
+    .avtor__text {
+        padding-top: 12px;
+        font-size: 14px;
+        font-family: "PT Sans";
+        color: rgb(153, 153, 153);
+        line-height: 1.429;
+    }
+}

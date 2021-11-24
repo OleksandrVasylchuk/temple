@@ -1,0 +1,112 @@
+
+ @media screen and (max-width: 1149px){
+.hero {
+    height: 450px;
+    width: 320px;
+    background-image: url(../../images/hero-mobile.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.hero__container {
+    padding-top: 100px;
+
+    & div {
+        width: 280px;
+        height: 300px;
+        padding: 20px;
+        background-color: #fff;
+    }
+    &.container{
+        margin: 0px;
+    }
+}
+
+.hero__title {
+    font-size: 35px;
+    font-family: "Cormorant Infant";
+    color: rgb(64, 64, 64);
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+
+
+}
+
+.hero__text {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: "PT Sans";
+    color: rgb(64, 64, 64);
+    line-height: 1.556;
+    text-align: left;
+}
+}
+    
+ @media screen and (min-width: 1150px) {
+    
+
+main{
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 1920px;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+
+.hero {
+    position: relative;
+    left: -270px;
+    background-image: url(../../images/hero.jpg);
+    background-repeat: no-repeat;
+    height: 580px;
+    width: 1920px;
+    background-size: 100%;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.hero__container {
+    display: flex;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    & div{
+        width: 550px;
+        height: 350px;
+        padding: 41px 41px 50px 40px;
+        background-color: #fff;
+    }
+}
+
+.hero__title {
+        font-size: 60px;
+        font-family: "Cormorant Infant";
+        color: rgb(64, 64, 64);
+        font-weight: bold;
+        line-height: 1;
+        text-align: left;
+
+
+}
+
+.hero__text {
+    margin-top: 20px;
+        font-size: 17px;
+        font-family: "PT Sans";
+        color: rgb(64, 64, 64);
+        line-height: 1.556;
+        text-align: left;
+
+
+}
+}

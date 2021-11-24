@@ -1,0 +1,83 @@
+body {
+  margin: 0 auto;
+ font-family: 'Cormorant Infant',
+ serif;
+ font-family: 'Poppins',
+ sans-serif;
+ font-family: 'PT Sans',
+ sans-serif;
+ box-sizing: border-box;
+ background-color: #f3f3f3;
+
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  height: auto;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div{
+  box-sizing: border-box;
+}
+svg{
+  width: 20px;
+  height: 20px;
+}
+
+.container {
+  max-width: 320px;
+}
+
+@media screen and (min-width: 1150px) {
+  .container {
+    // max-width: 1280px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

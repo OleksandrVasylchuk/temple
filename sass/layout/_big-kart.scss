@@ -1,0 +1,245 @@
+ @media screen and (max-width: 1149px) {
+.kards  {
+        margin: 30px auto 20px auto;
+}
+
+
+.kards__first {
+        width: 280px;
+        min-height: 300px;
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #ffffff;
+}
+
+.kards__sekond {
+        width: 280px;
+        min-height: 300px;
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #ffffff;
+
+}
+
+.kards__kalendar {
+        display: flex;
+        margin-top: 24px;
+        margin-bottom: 20px;
+        align-items: center;
+}
+.kards__img {
+        width: 100%;
+}
+
+.kards__kalendar-img {
+        width: 15px;
+        height: 16px;
+}
+
+.kards__kalendar_date {
+        margin-left: 8px;
+
+        font-size: 14px;
+        font-family: "PT Sans";
+        color: rgb(166, 166, 166);
+        line-height: 1.857;
+        text-align: left;
+}
+
+.kards__title {
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-family: "CormorantInfant";
+        color: rgb(38, 38, 38);
+        font-weight: bold;
+        font-style: italic;
+        line-height: 0.8;
+        text-align: left;
+}
+
+.kards__text {
+        font-size: 15px;
+        font-family: "PT Sans";
+        color: rgb(115, 115, 115);
+        line-height: 1.625;
+        text-align: left;
+
+}
+
+.kards__elements {
+        // display: flex;
+        margin-top: 16px;
+        margin-bottom: 18px;
+        justify-content: center;
+}
+
+.kards__elements-button {
+        display: block;
+        padding: 10px 20px;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 14px;
+        font-family: "PT Sans";
+        color: rgb(72, 151, 76);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.714;
+        text-align: left;
+        background-color: #ffffff;
+        border: solid 1px rgb(72, 151, 76);
+
+
+}
+
+.kards__elements-list {
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center;
+}
+
+.kards__elements-item {
+        display: block;
+        margin-left: 15px;
+
+        &:first-child {
+                margin-left: 0px;
+        }
+}
+
+
+.kards__elements-icon {
+        padding-top: 19px;
+        fill: #cccccc;
+        width: 30px;
+        height: 30px;
+
+        &:hover,
+        &:focus {
+                fill: rgb(72, 151, 76);
+        }
+}
+
+ }
+@media screen and (min-width: 1150px) {
+        .kards {
+        display: flex;
+        margin: 30px auto 20px auto;
+        }
+
+        .kards__first {
+        width: 550px;
+        min-height: 690px;
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #ffffff;
+        }
+        .kards__sekond{
+                width: 550px;
+        min-height: 690px;
+                margin-top: 30px;
+                padding: 20px;
+                background-color: #ffffff;
+
+        }
+        .kards__kalendar {
+        display: flex;
+        margin-top: 24px;
+        margin-bottom: 20px;
+        align-items: center;
+        }
+
+        .kards__img {
+                width: 100%;
+        }
+
+        .kards__kalendar-img {
+                width: 15px;
+                height: 16px;
+        
+
+        }
+
+        .kards__kalendar_date {
+                margin-left: 8px;
+
+                font-size: 14px;
+                font-family: "PT Sans";
+                color: rgb(166, 166, 166);
+                line-height: 1.857;
+                text-align: left;
+
+
+        }
+
+        .kards__title {
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-family: "CormorantInfant";
+        color: rgb(38, 38, 38);
+        font-weight: bold;
+        font-style: italic;
+        line-height: 0.8;
+        text-align: left;
+
+        
+
+        }
+
+        .kards__text {
+                font-size: 15px;
+                font-family: "PT Sans";
+                color: rgb(115, 115, 115);
+                line-height: 1.625;
+                text-align: left;
+
+        }
+
+        .kards__elements {
+                display: flex;
+                margin-top: 16px;
+                margin-bottom: 18px;
+        }
+
+        .kards__elements-button {
+                padding: 20px 40px;
+                margin-right: 145px;
+                font-size: 14px;
+                font-family: "PT Sans";
+                color: rgb(72, 151, 76);
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 1.714;
+                text-align: left;
+                background-color: #ffffff;
+                border: solid 1px rgb(72, 151, 76);
+                
+
+        }
+
+        .kards__elements-list {
+                display: flex;
+                align-items: center;
+        }
+
+        .kards__elements-item {
+                display: block;
+                margin-left: 15px;
+                &:first-child{
+                margin-left: 0px;
+                }
+        }
+
+
+        .kards__elements-icon {
+                padding-top: 19px;
+                fill: #cccccc;
+                width: 30px;
+                height: 30px;
+                &:hover,
+                &:focus{
+                fill: rgb(72, 151, 76);
+                }
+        }
+}

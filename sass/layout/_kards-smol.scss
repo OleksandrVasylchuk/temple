@@ -1,0 +1,143 @@
+     @media screen and (max-width: 1149px) {
+    .kards__smol {
+        margin-top: 30px;
+        width: 280px;
+        justify-content: center;
+        background-color: #fff;
+    }
+
+    .kards__kartka {
+        padding: 25px;
+        min-height: 350px;
+        border-bottom: solid 1px #e6e6e6;
+
+        &:nth-child(2n) {
+            border-bottom: none;
+        }
+
+    }
+
+
+    .kards__kartka-title {
+        margin-top: 15px;
+        font-size: 24px;
+        font-family: "Cormorant Infant";
+        color: rgb(38, 38, 38);
+        font-weight: bold;
+        font-style: italic;
+        line-height: 1.083;
+        text-align: left;
+
+
+    }
+
+    .kards__kartka-text {
+        margin-top: 21px;
+        margin-bottom: 21px;
+        font-size: 16px;
+        font-family: "PT Sans";
+        color: rgb(115, 115, 115);
+        line-height: 1.625;
+        text-align: left;
+        width: 100%;
+        height: 66px;
+
+
+    }
+
+    .kards__kartka-link {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        font-family: "PT Sans";
+        color: rgb(72, 151, 76);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 2;
+        text-align: left;
+    }
+
+    .kards__kartka-svg {
+        padding: 3px;
+        width: 13px;
+        height: 13px;
+        margin-right: 9px;
+        background-color: rgb(72, 151, 76);
+        border-radius: 50%;
+    }
+     }
+     
+@media screen and (min-width: 1150px) {
+    .kards__smol {
+    display: flex;
+    flex-wrap: wrap;
+    width: 540px;
+    margin-top: 30px;
+    margin-left: 15px;
+    background-color: #fff;
+}
+
+.kards__kartka {
+    padding: 22px;
+    min-height: 350px;
+    width: 270px;
+    border: solid 1px #e6e6e6;
+    border-left: none;
+    border-top: none;
+    &:nth-child(2n){
+        border-right: none;
+    }
+    &:nth-child(n + 7){
+        border-bottom: none;
+    }
+}
+
+
+.kards__kartka-title {
+    margin-top: 15px;
+    font-size: 24px;
+    font-family: "Cormorant Infant";
+    color: rgb(38, 38, 38);
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.083;
+    text-align: left;
+
+
+}
+
+.kards__kartka-text {
+    margin-top: 21px;
+    margin-bottom: 21px;
+        font-size: 16px;
+        font-family: "PT Sans";
+        color: rgb(115, 115, 115);
+        line-height: 1.625;
+        text-align: left;
+        width: 100%;
+        height: 66px;
+
+
+}
+
+.kards__kartka-link {
+    display: flex;
+    align-items: center;
+        font-size: 12px;
+        font-family: "PT Sans";
+        color: rgb(72, 151, 76);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 2;
+        text-align: left;
+}
+
+.kards__kartka-svg {
+    padding: 3px;
+    width: 13px;
+    height: 13px;
+    margin-right: 9px;
+    background-color: rgb(72, 151, 76);
+    border-radius: 50%;
+}
+}
