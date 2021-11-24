@@ -3,7 +3,7 @@
 .hero {
     height: 450px;
     width: 320px;
-    background-image: url(../../images/hero-mobile.jpg);
+    background-image: url(../images/hero-mobile.jpg);
     background-repeat: no-repeat;
     object-fit: cover;
     margin-left: auto;
@@ -62,7 +62,7 @@ main{
 .hero {
     position: relative;
     left: -270px;
-    background-image: url(../../images/hero.jpg);
+    background-image: url(../images/hero.jpg);
     background-repeat: no-repeat;
     height: 580px;
     width: 1920px;
