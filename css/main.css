@@ -276,7 +276,9 @@ svg {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
+    padding-top: 39px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
   }
   nav {
     display: block;
@@ -290,7 +292,6 @@ svg {
     display: none;
   }
   .header__title {
-    margin-top: 39px;
     margin-bottom: 12px;
     font-size: 36px;
     font-family: "Cormorant Infant";
@@ -332,8 +333,7 @@ svg {
     justify-content: center;
     margin-bottom: 25px;
     text-align: center;
-    margin-bottom: 20px;
-    background-color: #fff;
+    background-color: #f3f3f3;
   }
   .header-mein__item-svg {
     position: absolute;
@@ -362,6 +362,9 @@ svg {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 39px;
+    padding-bottom: 25px;
+    background-color: #ffffff;
   }
   nav {
     display: block;
@@ -375,7 +378,6 @@ svg {
     display: none;
   }
   .header__title {
-    margin-top: 39px;
     margin-bottom: 12px;
     font-size: 36px;
     font-family: "Cormorant Infant";
@@ -385,7 +387,7 @@ svg {
     text-align: center;
   }
   .header__text {
-    margin-bottom: 69px;
+    margin-bottom: 50px;
     font-size: 16px;
     font-family: "Cormorant Infant";
     color: #595959;
@@ -394,9 +396,19 @@ svg {
     text-align: center;
   }
   .header__list {
+    position: relative;
     display: flex;
     justify-content: center;
-    margin-bottom: 25px;
+  }
+  .header__list::before {
+    content: '';
+    background-color: #e6e6e6;
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 1070px;
+    height: 1px;
+    z-index: 13;
   }
   .header_item {
     margin-right: 82px;
@@ -430,7 +442,8 @@ svg {
   .hero__container {
     padding-top: 100px;
   }
-  .hero__container div {
+  .hero__container .adaptivny-slayder {
+    position: relative;
     width: 280px;
     height: 300px;
     padding: 20px;
@@ -438,6 +451,59 @@ svg {
   }
   .hero__container.container {
     margin: 0px;
+  }
+  .adaptivny-slayder input[name="kadoves"] {
+    display: none;
+  }
+  .kadoves {
+    position: absolute;
+    left: 85px;
+    bottom: -30px;
+    text-align: center;
+    width: 100px;
+  }
+  .kadoves label {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+    margin: 0 3px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.6;
+  }
+  #slaid1:checked ~ .kadoves label[for="slaid1"] {
+    background-color: white;
+    opacity: 1;
+  }
+  #slaid2:checked ~ .kadoves label[for="slaid2"] {
+    background-color: white;
+    opacity: 1;
+  }
+  #slaid3:checked ~ .kadoves label[for="slaid3"] {
+    background-color: white;
+    opacity: 1;
+  }
+  .adaptivny-slayder-lasekun {
+    overflow: hidden;
+  }
+  .abusteku-deagulus {
+    display: flex;
+    width: 100%;
+    transition: all 0.5s;
+  }
+  .abusteku-deagulus .slider__item {
+    width: 100%;
+    flex-shrink: 0;
+  }
+  #slaid1:checked ~ adaptivny-slayder-lasekun abusteku-deagulus {
+    transform: translate(0);
+  }
+  #slaid2:checked ~ .adaptivny-slayder-lasekun .abusteku-deagulus {
+    transform: translateX(-100%);
+  }
+  #slaid3:checked ~ .adaptivny-slayder-lasekun .abusteku-deagulus {
+    transform: translateX(-200%);
   }
   .hero__title {
     font-size: 35px;
@@ -468,27 +534,86 @@ svg {
   }
   .hero {
     position: relative;
-    left: -270px;
     background-image: url(../images/hero.jpg);
     background-repeat: no-repeat;
     height: 580px;
-    width: 1920px;
-    background-size: 100%;
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
   }
   .hero__container {
     display: flex;
+    height: 580px;
     padding-top: 80px;
     margin-left: auto;
     margin-right: auto;
   }
-  .hero__container div {
+  .hero__container {
+    display: flex;
+    height: 580px;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero__container .adaptivny-slayder {
+    position: relative;
     width: 550px;
     height: 350px;
     padding: 41px 41px 50px 40px;
     background-color: #fff;
+  }
+  .adaptivny-slayder input[name="kadoves"] {
+    display: none;
+  }
+  .kadoves {
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    text-align: center;
+    width: 100px;
+  }
+  .kadoves label {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+    margin: 0 3px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.6;
+  }
+  #slaid1:checked ~ .kadoves label[for="slaid1"] {
+    background-color: white;
+    opacity: 1;
+  }
+  #slaid2:checked ~ .kadoves label[for="slaid2"] {
+    background-color: white;
+    opacity: 1;
+  }
+  #slaid3:checked ~ .kadoves label[for="slaid3"] {
+    background-color: white;
+    opacity: 1;
+  }
+  .adaptivny-slayder-lasekun {
+    overflow: hidden;
+  }
+  .abusteku-deagulus {
+    display: flex;
+    width: 100%;
+    transition: all 0.5s;
+  }
+  .abusteku-deagulus .slider__item {
+    width: 100%;
+    flex-shrink: 0;
+  }
+  #slaid1:checked ~ adaptivny-slayder-lasekun abusteku-deagulus {
+    transform: translate(0);
+  }
+  #slaid2:checked ~ .adaptivny-slayder-lasekun .abusteku-deagulus {
+    transform: translateX(-100%);
+  }
+  #slaid3:checked ~ .adaptivny-slayder-lasekun .abusteku-deagulus {
+    transform: translateX(-200%);
   }
   .hero__title {
     font-size: 60px;
@@ -1011,7 +1136,7 @@ svg {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    margin-left: 390px;
+    margin-left: 362px;
     font-weight: 500;
   }
   .pagination__list .pagination__number-list {
@@ -1032,11 +1157,7 @@ svg {
     border: none;
     background-color: #f7f7f7;
     transition: all 250ms ease-in-out;
-  }
-  .pagination__list a.pagination__number:hover,
-  .pagination__list button:hover {
-    background-color: #449653;
-    color: #ffffff;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.04);
   }
   .pagination__list > button:hover .material-icons,
   .pagination__list > a:hover .material-icons {
@@ -1067,22 +1188,22 @@ svg {
   body.dark-theme .pagination__arrow .material-icons {
     color: var(--color-light);
   }
-  body.dark-theme .pagination__arrow:hover {
-    background-color: #449653;
-  }
   .pagination__arrow .material-icons-svg {
-    fill: #595959;
-    width: 15px;
-    height: 15px;
+    stroke: #595959;
+    width: 13px;
+    height: 13px;
+  }
+  .pagination__arrow .material-icons-svg.prev {
+    stroke: #b3b3b3;
   }
   .pagination__arrow .material-icons-svg:hover {
-    fill: #449653;
     stroke: #449653;
   }
   .pagination__arrow.disabled {
     pointer-events: none;
     background-color: none;
     box-shadow: none;
+    stroke: #bdbdbd;
   }
   .pagination__arrow.disabled:hover {
     background-color: #f7f7f7;
@@ -1090,17 +1211,14 @@ svg {
   .pagination__arrow.disabled .material-icons,
   .pagination__arrow.disabled:hover .material-icons {
     color: #bdbdbd;
+    stroke: #bdbdbd;
   }
   body.dark-theme .pagination__arrow.disabled .material-icons, body.dark-theme
   .pagination__arrow.disabled:hover .material-icons {
     color: var(--color-dark);
   }
   .pagination__arrow--left {
-    margin-right: 40px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
-  }
-  .pagination__arrow--right {
-    margin-left: 40px;
   }
   .pointer-events {
     pointer-events: none;
@@ -1177,25 +1295,24 @@ svg {
     display: flex;
     margin-right: auto;
     margin-left: auto;
-  }
-  .build .container {
-    display: flex;
+    align-items: center;
   }
   .build__text {
-    padding-top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 212px;
     height: 56px;
-    text-align: center;
     background-color: white;
     font-size: 18px;
     font-family: "PT Sans";
     color: #262626;
     line-height: 1.333;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
   }
   .build__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 146px;
     height: 56px;
     font-size: 14px;

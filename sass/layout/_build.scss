@@ -74,28 +74,26 @@
         display: flex;
         margin-right: auto;
         margin-left: auto;
-    }
-    .build .container{
-        display: flex;
+        align-items: center;
     }
 
     .build__text {
-        padding-top: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 212px;
         height: 56px;
-        text-align: center;
         background-color: rgb(255, 255, 255);
         font-size: 18px;
         font-family: "PT Sans";
         color: rgb(38, 38, 38);
         line-height: 1.333;
-        text-align: center;
-        display: table-cell;
-        vertical-align: middle
-
     }
 
     .build__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 146px;
         height: 56px;
         font-size: 14px;

@@ -3,7 +3,9 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
+    padding-top: 39px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
 }
 
 nav {
@@ -21,7 +23,6 @@ nav {
 }
 
 .header__title {
-    margin-top: 39px;
     margin-bottom: 12px;
     font-size: 36px;
     font-family: "Cormorant Infant";
@@ -67,8 +68,7 @@ nav {
     justify-content: center;
     margin-bottom: 25px;
     text-align: center;
-    margin-bottom: 20px;
-    background-color: #fff;
+    background-color: #f3f3f3;
 }
 .header-mein__item-svg{
     position: absolute;
@@ -104,6 +104,9 @@ nav {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+        padding-top: 39px;
+        padding-bottom: 25px;
+        background-color: #ffffff;
     }
 
     nav {
@@ -120,7 +123,6 @@ nav {
 
 
     .header__title {
-        margin-top: 39px;
         margin-bottom: 12px;
         font-size: 36px;
         font-family: "Cormorant Infant";
@@ -131,7 +133,7 @@ nav {
     }
 
     .header__text {
-        margin-bottom: 69px;
+        margin-bottom: 50px;
         font-size: 16px;
         font-family: "Cormorant Infant";
         color: rgb(89, 89, 89);
@@ -142,10 +144,23 @@ nav {
     }
 
     .header__list {
+        position: relative;
         display: flex;
         justify-content: center;
-        margin-bottom: 25px;
+        &::before {
+            content: '';
+               background-color: rgb(230, 230, 230);
+               position: absolute;
+               left: 20px;
+               top: -20px;
+               width: 1070px;
+               height: 1px;
+               z-index: 13;
+           }
+
+
     }
+
 
     .header_item {
         margin-right: 82px;

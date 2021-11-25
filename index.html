@@ -37,20 +37,53 @@
         </nav>
     </header>
 
+    
+
     <main class="">
-        <div class="hero">
-            <div class="hero__container container">
-               <div>
-                    <h1 class="hero__title">Дорогие братья и сестры</h1>
-                    <p class="hero__text">Приглашаем Вас каждое воскресенье в 13.00 на молебен о
-                        строительстве Храма преподобного Саввы Сторожевского.
-                        Молебен служится на месте строительства по адресу: пл.
-                        Викторио Кодовильи, вл. 1 напротив бывшего кинотеатра
-                        “Енисей”
-                    </p>
-               </div>
-            </div>
+        <div class="hero" >
+           <div class="hero__container container">
+                <div class="adaptivny-slayder">
+                    <input type="radio" name="kadoves" id="slaid1" checked>
+                    <input type="radio" name="kadoves" id="slaid2">
+                    <input type="radio" name="kadoves" id="slaid3">
+                    
+                    <div class="kadoves">
+                    <label for="slaid1"></label>
+                    <label for="slaid2"></label>
+                    <label for="slaid3"></label>
+                    </div>
+                    
+                    <div class="adaptivny-slayder-lasekun">
+                    <div class="abusteku-deagulus">
+                            <div class="slider__item">
+                                <h1 class="hero__title">Дорогие братья и сестры</h1>
+                                <p class="hero__text">Приглашаем Вас каждое воскресенье в 13.00 на молебен о
+                                    строительстве Храма преподобного Саввы Сторожевского.
+                                    Молебен служится на месте строительства по адресу: пл.
+                                    Викторио Кодовильи, вл. 1 напротив бывшего кинотеатра
+                                    “Енисей”
+                                </p>
+                            </div>
+                            <div class="slider__item">
+                                <h1 class="hero__title">Дорогие братья и сестры</h1>
+                                <p class="hero__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, commodi! Aliquam libero iusto ut! Aliquid cupiditate ea repudiandae ex, qui ullam nihil optio delectus, molestiae autem, placeat voluptatibus voluptate! Facilis.
+                                </p>
+                            </div>
+                            <div class="slider__item">
+                                <h1 class="hero__title">Дорогие братья и сестры</h1>
+                                <p class="hero__text">Приглашаем Вас каждое воскресенье в 13.00 на молебен о
+                                    строительстве Храма преподобного Саввы Сторожевского.
+                                    Молебен служится на месте строительства по адресу: пл.
+                                    Викторио Кодовильи, вл. 1 напротив бывшего кинотеатра
+                                    “Енисей”
+                                </p>
+                            </div>
+                    </div>
+                    </div>
+                    </div>
+           </div>
         </div>
+
 
         <section class="kards container">
            <div>
@@ -64,7 +97,7 @@
                     <h3 class="kards__title">Освящение закладного камня</h3>
                     <p class="kards__text">7 февраля 2016 года в 14.00 прихожане строящегося храма в честь преподобного Саввы Сторожевского встречали владыку Пантелеимона, епископа Орехово-Зуевского. Жители нашего района собрались на чин освящения закладного камня в фундамент будущего храма. Это поистине историческое событие для жителей нашего района и города в целом. Храм преподобного Саввы Сторожевского... великого подвижника и ученика преподобного Сергия Радонежского, станет единственным в нашей столице.</p>
                     <div class="kards__elements">
-                        <button class="kards__elements-button">Подробнее</button>
+                        <a class="kards__elements-button">Подробнее</a>
                         <ul class="kards__elements-list">
                             <li class="kards__elements-item">
                                 <a href="">
@@ -119,7 +152,7 @@
                     <h3 class="kards__title">Освящение закладного камня</h3>
                     <p class="kards__text">7 февраля 2016 года в 14.00 прихожане строящегося храма в честь преподобного Саввы Сторожевского встречали владыку Пантелеимона, епископа Орехово-Зуевского. Жители нашего района собрались на чин освящения закладного камня в фундамент будущего храма. Это поистине историческое событие для жителей нашего района и города в целом. Храм преподобного Саввы Сторожевского... великого подвижника и ученика преподобного Сергия Радонежского, станет единственным в нашей столице.</p>
                     <div class="kards__elements">
-                        <button class="kards__elements-button">Подробнее</button>
+                        <a class="kards__elements-button">Подробнее</a>
                         <ul class="kards__elements-list">
                             <li class="kards__elements-item">
                                 <a href="">
@@ -311,7 +344,8 @@
 
         <section class="build">
             <div class="build__container container">
-                <p class="build__text">Ход строительства</p><button class="build__button">Подробнее</button>
+                <div class="build__text"><span >Ход строительства</span></div>
+                <a class="build__button">Подробнее</a>
             </div>
 
         </section>
